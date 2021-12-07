@@ -27,6 +27,7 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
+## This application uses the Postgress Database with username 'postgres' and password 'postgress'. To change the values, edit the './src/config/typeorm.config' file according to your necessities. Thank you.
 
 ```bash
 $ npm install
