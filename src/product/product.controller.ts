@@ -49,21 +49,7 @@ export class ProductController {
         return this.productService.updateInVentoryByProductId(tempProductId, tempAddAmount);
     }
     
-    // @Delete('/delete/email/:email') //works
-    // @UsePipes(ValidationPipe)
-    // deleteCutomerByEmail( 
-    //     @Param('email') email: string
-    //     ): Promise<Customer> {
-    //     return this.customerService.deleteCustomerByEmail(email);
-    // }
-
-    // @Delete('/delete/address/:address') //works
-    // @UsePipes(ValidationPipe)
-    // deleteCutomerByAddress( 
-    //     @Param('address') address: string
-    //     ): Promise<Customer> {
-    //     return this.customerService.deleteCustomerByAddress(address);
-    // }
+    
 
     
     
